@@ -5,7 +5,7 @@
 ````
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r src/requirements.txt
+pip install -r src/requirements/local.txt
 ````
 
 ## run local (for dev)
