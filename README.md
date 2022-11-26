@@ -16,6 +16,8 @@ uvicorn main:app --reload
 
 ## run on prod
 
+Load the src/requirements/prod.txt and the pip env
+
 ````
 uvicorn main:app
 ````
