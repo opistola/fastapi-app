@@ -7,8 +7,8 @@ jobs:
   build-app:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "$GITHUB_CONTEXT"
       - uses: actions/checkout@v3
+      - run: echo "$GITHUB_CONTEXT"
       - uses: actions/setup-python@v4
         with:
             python-version: '3.10' 
